@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="match_date"
+              android:layout_marginTop="10dp"
+              android:textColor="#8e8e8e"
+              android:layout_centerHorizontal="true"
+              android:id="@+id/match_date"
+              android:textSize="16sp"
+              android:textAlignment="center"
+    />
+
+    <TextView android:layout_width="94dp" android:layout_height="wrap_content"
+              android:text="home_team_name"
+              android:textColor="#8e8e8e"
+              android:layout_marginTop="34dp"
+              android:layout_marginLeft="25dp"
+              android:id="@+id/home_team_name"
+              android:textStyle="bold"
+              android:textSize="16sp"
+              android:textAlignment="center"
+    />
+
+    <LinearLayout android:id="@+id/score_detail" android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="0"
+                  android:textColor="#8e8e8e"
+                  android:layout_toRightOf="@id/home_team_name"
+                  android:layout_marginTop="34dp"
+                  android:id="@+id/home_team_score"
+                  android:textStyle="bold"
+                  android:textSize="29sp"
+                  android:textAlignment="center"
+        />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text=":"
+                  android:textColor="#8e8e8e"
+                  android:layout_toRightOf="@id/home_team_name"
+                  android:layout_marginTop="34dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:id="@+id/separator"
+                  android:textSize="29sp"
+                  android:textAlignment="center"
+        />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="0"
+                  android:textColor="#8e8e8e"
+                  android:layout_toRightOf="@id/home_team_name"
+                  android:layout_marginTop="34dp"
+                  android:id="@+id/away_team_score"
+                  android:textStyle="bold"
+                  android:textSize="29sp"
+                  android:textAlignment="center"
+        />
+    </LinearLayout>
+
+    <TextView android:layout_width="94dp" android:layout_height="wrap_content"
+              android:text="away_team_name"
+              android:textColor="#8e8e8e"
+              android:layout_marginRight="25dp"
+              android:layout_marginTop="34dp"
+              android:layout_alignParentRight="true"
+              android:id="@+id/away_team_name"
+              android:textStyle="bold"
+              android:textSize="16sp"
+              android:textAlignment="center"
+    />
+    <View android:layout_width="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+          android:layout_marginTop="20dp" android:layout_below="@id/score_detail" android:layout_height="1dp"
+          android:background="#dddddd"/>
+</RelativeLayout>

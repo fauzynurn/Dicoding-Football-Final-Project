@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Football Match Schedule</string>
+    <string name="last_match">LAST MATCH</string>
+    <string name="next_match">NEXT MATCH</string>
+    <string name="favorites">Favourites</string>
+    <string name="English_id">4328</string>
+    <string name="Scottish_id">4330</string>
+    <string name="Danish_id">4340</string>
+    <string name="Dutch_id">4337</string>
+    <string name="Spanish_id">4335</string>
+    <string name="Belgian_id">4338</string>
+
+    <array name="league">
+        <item name="english">English Premier League</item>
+        <item name="Scottish">Scottish Premier League</item>
+        <item name="danish">Danish Superliga</item>
+        <item name="dutch">Dutch Eredivisie</item>
+        <item name="spanish">Spanish La Liga</item>
+        <item name="belgian">Belgian Jupiler League</item>
+    </array>
+
+</resources>
